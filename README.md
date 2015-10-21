@@ -1,39 +1,40 @@
 <img src="http://phaser.io/images/img.png">
 
-<img src="http://phaser.io/images/github/jump.jpg" align="right">
 
 ##What is Phaser?
 
-Phaser is an open source HTML5 game framework created by Photon Storm. It's designed to create games that will run on desktop and mobile web browsers. A lot of focus was given to performance inside of mobile web browsers, a growing and important area of web gaming. If the device is capable then it uses WebGL for rendering, but otherwise it seamlessly reverts to Canvas. 
+
+PHASER IS AN AWESOME open source HTML5 game framework created by THE ONE AND ONLY, Photon Storm. It's designed to create games that will run on desktop and mobile web browsers. A lot of focus was given to performance inside of mobile web browsers, a growing and important area of web gaming. If the device is capable then it uses WebGL for rendering, but otherwise it seamlessly reverts to Canvas. 
 
 ####What is canvas you ask? 
 The HTML <canvas> element is used to draw graphics, on the fly, via scripting (usually JavaScript). The <canvas> element is only a container for graphics.
 
+##Let's talk about platforms...
 
-
-##What Platforms Can I Target With Phaser?
+Phaser is designed to create games that will run on desktop and mobile web browsers. A lot of focus was given to performance inside of mobile web browsers, a growing and important area of web gaming. If the device is capable then it uses WebGL for rendering, but otherwise it seamlessly reverts to Canvas.
 
 ###Desktop Browsers
-Phaser is a JavaScript library designed to run on all major desktop browsers. This includes Internet Explorer 9 and above, Firefox, Chrome, and Safari. Prior to IE9 it didn't support canvas, so if you absolutely need a framework that can handle DOM rendering then Phaser won't be suitable. However, demand for these types of games are becoming next to minimal; if anything, it's shifting the other direction (towards WebGL).
+Phaser is a JavaScript library designed to run on all major desktop browsers. This includes Internet Explorer 9 and Edge (LIKE ANYONE USES THOSE), Firefox, Chrome, and Safari.
 
 ###Mobile Browsers
 On mobile, Phaser runs on iOS5 and above inside of Mobile Safari. On Android, it runs in 2.2 and above in both the stock browser and in Chrome. Chrome is now the standard Android browser, with recent versions even supporting WebGL, but you still can't ignore the millions of legacy Android devices that remain in use.
 
+##Let's take a dive into the features...
 
-##Key Features
-
-###It's Just Plain JavaScript
+###It's Just Plain JavaScript!!!
 This may sound like a strange 'feature', but it should actually be quite a compelling one. Phaser doesn't use any faux OO-style practises internally. There's no massive inheritance chain or component system, and you don't have to force your objects into any fixed class structure, either. It's a simple straight-forward prototype chain, the way JavaScript was meant to be used.
 
 This doesn't mean you can't build your game in a structured way; far from it. All it means is that we don't enforce it. It also means that Phaser is internally very easy to hack around with.
 
 
-###Easy Asset Loading
+###Easy Asset Loading 
+<img src="http://phaser.io/images/github/jump.jpg" align="right">
+
 Phaser has a built-in asset Loader that can handle:
 
 *Images
 
-*Sprite Sheets (fixed sized frames)
+*Sprite Sheets (PER NATHAN's TALK YESTERDAY)
 
 *Texture Atlases (including Texture Packer, JSON Hash, JSON Array, Flash CS6/CC, and Starling XML formats)
 
@@ -51,9 +52,9 @@ We routinely export texture atlas files from Flash directly to our Phaser games,
 
 ###Rendering: WebGL and Canvas
 
-Internally, Phaser uses Pixi.js for rendering. Pixi is a great, fast rendering library that focuses on Canvas and WebGL. It's a library we continue to contribute towards to help push things forward.
+Internally, Phaser uses Pixi.js for rendering. (WHAT IS PIXI? 2D webGL renderer with canvas fallback) It's basically the fastest kid in town for rendering. Their library focuses on Canvas and WebGL.
 
-For your games, this means that if the browser supports WebGL then the player will more often than not get a smoother experience. WebGL is common on desktop but still emerging on mobile; even so, it is where HTML5 games are headed in the future, so supporting it is vital. The latest release of Phaser introduced WebGL shader and filter support, and forthcoming ones will implement normal maps so you can benefit from new tools like Sprite Lamp.
+For games, this means that if the browser supports WebGL then the player will more often than not get a smoother experience. WebGL is common on desktop but still emerging on mobile; even so, it is where HTML5 games are headed in the future, so supporting it is vital. The latest release of Phaser introduced WebGL shader and filter support, and forthcoming ones will implement normal maps so you can benefit from new tools like Sprite Lamp.
 
 ###Audio: Web Audio and Legacy Audio
 Audio has been one of the weakest points of HTML games for a long time. Only a couple of years ago, we were faced with the choice of having one single channel of high-latency audio that would cripple the device during playback or having no audio at all. But times have changed, and the Web Audio API came to our salvation. It allows for proper node-based audio support, with multiple channels, node routing and all kinds of effects. So Phaser fully supports Web Audio.
@@ -72,11 +73,6 @@ Bundled into the core library are the ArcadePhysics and ArcadeParticles systems.
 It is our aim that the core of Phaser will eventually settle down and hit a nice stable equilibrium, where we're not likely to touch it much beyond fixes and browser updates. However, we want Phaser to carry on growing, providing features for all kinds of games but without causing the core library to explode in growth. To this end, we've built in a plugin system.
 
 Phaser plugins can register themselves with the core framework, be updated in line with the core game loop, and perform all kinds of useful additional tasks. A great example of this is the recently released EasyStar path finding plugin. We will be releasing plugins ourselves and expect to see more coming from the community in the future.
-
-
-
-However, we understand that this won't suit all types of games, so the physics system is easy to replace and none of the physics properties are bound to actual sprites (but rather to a body component), so can be swapped out for the likes of Box2D or p2.js. A tweening system is also built-in, allowing you to tween objects or properties easily. And should the game pause, then all of your tweens will pause automatically and resume as needed.
-
 
 ## Integrating Phaser
 
