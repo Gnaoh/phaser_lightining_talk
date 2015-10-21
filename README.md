@@ -34,7 +34,7 @@ Phaser has a built-in asset Loader that can handle:
 
 *Images
 
-*Sprite Sheets (PER NATHAN's TALK YESTERDAY)
+*Sprite Sheets (PER NATHAN'S TALK YESTERDAY)
 
 *Texture Atlases (including Texture Packer, JSON Hash, JSON Array, Flash CS6/CC, and Starling XML formats)
 
@@ -102,29 +102,29 @@ or the minified version:
 
 `<script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/2.4.4/phaser.js"></script>`
 
-##How do you use it? Is there a "cheatsheet" you made others can reference?
+##H ow do you use it? Is there a "cheatsheet" you made others can reference?
 Yes, please refer for the "cheatsheet.html" file.
-
-##Games made with Phaser
+ 
+## Games made with Phaser
 
 Thousands of games have been made in Phaser. From game jam entries to titles by some of the largest entertainment brands in the world. Here is a tiny sample:
 
-[![Game](http://phaser.io/images/github/241/bubble-academy.png)][game10]
-[![Game](http://phaser.io/images/github/241/woodventure.png)][game11]
-[![Game](http://phaser.io/images/github/241/hopsop.png)][game12]
-[![Game](http://phaser.io/images/github/241/banana-mania.png)][game13]
-[![Game](http://phaser.io/images/github/241/salazar.png)][game14]
-[![Game](http://phaser.io/images/github/241/phaser-shmup.png)][game15]
-[![Game](http://phaser.io/images/github/241/trappy-trap.png)][game16]
-[![Game](http://phaser.io/images/github/241/runaway-ruins.png)][game17]
-[![Game](http://phaser.io/images/github/241/ananias.png)][game18]
-[![Game](http://phaser.io/images/github/shot1a.jpg)][game1]
-[![Game](http://phaser.io/images/github/shot2a.jpg)][game2]
-[![Game](http://phaser.io/images/github/shot3a.jpg)][game3]
-[![Game](http://phaser.io/images/github/shot4a.jpg)][game4]
-[![Game](http://phaser.io/images/github/shot5b.jpg)][game5]
-[![Game](http://phaser.io/images/github/shot6b.jpg)][game6]
-[![Game](http://phaser.io/images/github/shot7b.jpg)][game7]
-[![Game](http://phaser.io/images/github/shot8.jpg)][game8]
-[![Game](http://phaser.io/images/github/shot9.jpg)][game9]
+http://phaser.io/images/github/241/bubble-academy.png
+http://phaser.io/images/github/241/woodventure.png
+http://phaser.io/images/github/241/hopsop.png
+http://phaser.io/images/github/241/banana-mania.png
+http://phaser.io/images/github/241/salazar.png
+http://phaser.io/images/github/241/phaser-shmup.png
+http://phaser.io/images/github/241/trappy-trap.png
+http://phaser.io/images/github/241/runaway-ruins.png
+http://phaser.io/images/github/241/ananias.png
+http://phaser.io/images/github/shot1a.jp
+http://phaser.io/images/github/shot2a.jp
+http://phaser.io/images/github/shot3a.jp
+http://phaser.io/images/github/shot4a.jp
+http://phaser.io/images/github/shot5b.jp
+http://phaser.io/images/github/shot6b.jp
+http://phaser.io/images/github/shot7b.jp
+http://phaser.io/images/github/shot8.jp
+http://phaser.io/images/github/shot9.jp
 
