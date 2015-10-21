@@ -1,6 +1,5 @@
 <img src="http://phaser.io/images/img.png">
 
-
 ##What is Phaser?
 
 
@@ -64,8 +63,6 @@ However, on Android especially, lots of devices still don't support thi—so we 
 ###Input: Multi-Touch, Keyboard, Pointer, Mouse
 When supporting desktop and mobile there are an increasingly varied number of potential input options. Phaser supports keyboard, mouse, touch, MSPointer (now Pointer under IE11), and combinations thereof. For example, on Windows Surface devices you could swap between using a mouse and touch, or indeed use both together.
 
-For touch input, Phaser copes with both single-touch and multi-touch environments. You can define up to 10 touch points and track them all independently, using their events to handle Sprite interactions such as dragging, tapping, and collision.
-
 ###Physics, Tweens, and Particles
 Bundled into the core library are the ArcadePhysics and ArcadeParticles systems. These are simple AABB light-weight libraries that allow you to apply gravity and motion to any Sprite, then test for collision and separation. Using a world-based quadtree to help minimise collision tests, you can achieve decent results quickly with little processing time required.
 
@@ -109,15 +106,15 @@ Yes, please refer for the "cheatsheet.html" file.
 
 Thousands of games have been made in Phaser. From game jam entries to titles by some of the largest entertainment brands in the world. Here is a tiny sample:
 
-<img src= "http://phaser.io/images/github/241/bubble-academy.png)">
-<img src= "http://phaser.io/images/github/241/woodventure.png)">
-<img src= "http://phaser.io/images/github/241/hopsop.png)">
-<img src= "http://phaser.io/images/github/241/banana-mania.png)">
-<img src= "http://phaser.io/images/github/241/salazar.png)">
-<img src= "http://phaser.io/images/github/241/phaser-shmup.png)">
-<img src= "http://phaser.io/images/github/241/trappy-trap.png)">
-<img src= "http://phaser.io/images/github/241/runaway-ruins.png)">
-<img src= "http://phaser.io/images/github/241/ananias.png)">
+<img src= "http://phaser.io/images/github/241/bubble-academy.png">
+<img src= "http://phaser.io/images/github/241/woodventure.png">
+<img src= "http://phaser.io/images/github/241/hopsop.png">
+<img src= "http://phaser.io/images/github/241/banana-mania.png">
+<img src= "http://phaser.io/images/github/241/salazar.png">
+<img src= "http://phaser.io/images/github/241/phaser-shmup.png">
+<img src= "http://phaser.io/images/github/241/trappy-trap.png">
+<img src= "http://phaser.io/images/github/241/runaway-ruins.png">
+<img src= "http://phaser.io/images/github/241/ananias.png">
 <img src= "http://phaser.io/images/github/shot1a.jpg">
 <img src= "http://phaser.io/images/github/shot2a.jpg">
 <img src= "http://phaser.io/images/github/shot3a.jpg">
@@ -127,3 +124,7 @@ Thousands of games have been made in Phaser. From game jam entries to titles by 
 <img src= "http://phaser.io/images/github/shot7b.jpg">
 <img src= "http://phaser.io/images/github/shot8.jpg">
 <img src= "http://phaser.io/images/github/shot9.jpg">
+
+## GAME DEMOS: http://itch.io/
+
+##TIME TO CHECKOUT THE GAME I MADE
