@@ -1,6 +1,4 @@
-# Phaser
-
-<img src="https://cdn.tutsplus.com/gamedev/uploads/2013/12/header.jpg">
+<img src="http://phaser.io/images/img.png">
 
 <img src="http://phaser.io/images/github/jump.jpg" align="right">
 
@@ -11,38 +9,7 @@ Phaser is an open source HTML5 game framework created by Photon Storm. It's desi
 ####What is canvas you ask? 
 The HTML <canvas> element is used to draw graphics, on the fly, via scripting (usually JavaScript). The <canvas> element is only a container for graphics.
 
-## Integrating Phaser
 
-Phaser is [hosted on Github][phaser]. There are a number of ways to download it:
-
-* Clone the git repository via [https][clone-http], [ssh][clone-ssh] or with the Github [Windows][clone-ghwin] or [Mac][clone-ghmac] clients.
-* Download as [zip][get-zip] or [tar.gz][get-tgz]
-* Download just the build files: [phaser.js][get-js] and [phaser.min.js][get-minjs]
-* Checkout with [svn][clone-svn]
-
-### Bower / npm
-
-Install via [bower](http://bower.io)
-
-`bower install phaser`
-
-Install via [npm](https://www.npmjs.com)
-
-`npm install phaser`
-
-### CDN
-
-[jsDelivr](http://www.jsdelivr.com/#!phaser) is a "super-fast CDN for developers". Include the following in your html:
-
-`<script src="//cdn.jsdelivr.net/phaser/2.4.4/phaser.js"></script>`
-
-or the minified version:
-
-`<script src="//cdn.jsdelivr.net/phaser/2.4.4/phaser.min.js"></script>`
-
-[cdnjs.com](https://cdnjs.com/libraries/phaser) also offers a free CDN service. They have all versions of Phaser and even the custom builds:
-
-`<script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/2.4.4/phaser.js"></script>`
 
 ##What Platforms Can I Target With Phaser?
 
@@ -60,18 +27,24 @@ This may sound like a strange 'feature', but it should actually be quite a compe
 
 This doesn't mean you can't build your game in a structured way; far from it. All it means is that we don't enforce it. It also means that Phaser is internally very easy to hack around with.
 
-Good—because we have a TypeScript definitions file as well! There is a guide specifically on using Phaser with TypeScript available.
 
 ###Easy Asset Loading
 Phaser has a built-in asset Loader that can handle:
 
 *Images
+
 *Sprite Sheets (fixed sized frames)
+
 *Texture Atlases (including Texture Packer, JSON Hash, JSON Array, Flash CS6/CC, and Starling XML formats)
+
 *Audio files
+
 *Data Files (XML, JSON, plain text)
+
 *JavaScript files (so you can part-load your games or JS based resources)
+
 *Tilemaps (CSV and Tiled map formats)
+
 *Bitmap Fonts
 
 We routinely export texture atlas files from Flash directly to our Phaser games, and it supports fully trimmed atlases. Assets can be part-loaded, cached, and pulled from different URLs (for CDN support), and you can even turn any sprite into a progress bar with a single line of code.
@@ -103,6 +76,35 @@ Phaser plugins can register themselves with the core framework, be updated in li
 
 
 However, we understand that this won't suit all types of games, so the physics system is easy to replace and none of the physics properties are bound to actual sprites (but rather to a body component), so can be swapped out for the likes of Box2D or p2.js. A tweening system is also built-in, allowing you to tween objects or properties easily. And should the game pause, then all of your tweens will pause automatically and resume as needed.
+
+
+## Integrating Phaser
+
+* Clone the git repository via https://github.com/photonstorm/phaser
+
+### Bower / npm
+
+Install via [bower](http://bower.io)
+
+`bower install phaser`
+
+Install via [npm](https://www.npmjs.com)
+
+`npm install phaser`
+
+### CDN
+
+[jsDelivr](http://www.jsdelivr.com/#!phaser) is a "super-fast CDN for developers". Include the following in your html:
+
+`<script src="//cdn.jsdelivr.net/phaser/2.4.4/phaser.js"></script>`
+
+or the minified version:
+
+`<script src="//cdn.jsdelivr.net/phaser/2.4.4/phaser.min.js"></script>`
+
+[cdnjs.com](https://cdnjs.com/libraries/phaser) also offers a free CDN service. They have all versions of Phaser and even the custom builds:
+
+`<script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/2.4.4/phaser.js"></script>`
 
 ##How do you use it? Is there a "cheatsheet" you made others can reference?
 Yes, please refer for the "cheatsheet.html" file.
