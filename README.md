@@ -109,22 +109,21 @@ Yes, please refer for the "cheatsheet.html" file.
 
 Thousands of games have been made in Phaser. From game jam entries to titles by some of the largest entertainment brands in the world. Here is a tiny sample:
 
-http://phaser.io/images/github/241/bubble-academy.png
-http://phaser.io/images/github/241/woodventure.png
-http://phaser.io/images/github/241/hopsop.png
-http://phaser.io/images/github/241/banana-mania.png
-http://phaser.io/images/github/241/salazar.png
-http://phaser.io/images/github/241/phaser-shmup.png
-http://phaser.io/images/github/241/trappy-trap.png
-http://phaser.io/images/github/241/runaway-ruins.png
-http://phaser.io/images/github/241/ananias.png
-http://phaser.io/images/github/shot1a.jp
-http://phaser.io/images/github/shot2a.jp
-http://phaser.io/images/github/shot3a.jp
-http://phaser.io/images/github/shot4a.jp
-http://phaser.io/images/github/shot5b.jp
-http://phaser.io/images/github/shot6b.jp
-http://phaser.io/images/github/shot7b.jp
-http://phaser.io/images/github/shot8.jp
-http://phaser.io/images/github/shot9.jp
-
+<img src= "http://phaser.io/images/github/241/bubble-academy.png)">
+<img src= "http://phaser.io/images/github/241/woodventure.png)">
+<img src= "http://phaser.io/images/github/241/hopsop.png)">
+<img src= "http://phaser.io/images/github/241/banana-mania.png)">
+<img src= "http://phaser.io/images/github/241/salazar.png)">
+<img src= "http://phaser.io/images/github/241/phaser-shmup.png)">
+<img src= "http://phaser.io/images/github/241/trappy-trap.png)">
+<img src= "http://phaser.io/images/github/241/runaway-ruins.png)">
+<img src= "http://phaser.io/images/github/241/ananias.png)">
+<img src= "http://phaser.io/images/github/shot1a.jpg">
+<img src= "http://phaser.io/images/github/shot2a.jpg">
+<img src= "http://phaser.io/images/github/shot3a.jpg">
+<img src= "http://phaser.io/images/github/shot4a.jpg">
+<img src= "http://phaser.io/images/github/shot5b.jpg">
+<img src= "http://phaser.io/images/github/shot6b.jpg">
+<img src= "http://phaser.io/images/github/shot7b.jpg">
+<img src= "http://phaser.io/images/github/shot8.jpg">
+<img src= "http://phaser.io/images/github/shot9.jpg">
