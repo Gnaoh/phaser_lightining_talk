@@ -1,5 +1,7 @@
 # Phaser
 
+<img src="https://cdn.tutsplus.com/gamedev/uploads/2013/12/header.jpg">
+
 <img src="http://phaser.io/images/github/jump.jpg" align="right">
 
 ##What is Phaser?
