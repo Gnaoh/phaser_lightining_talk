@@ -99,7 +99,36 @@ or the minified version:
 
 `<script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/2.4.4/phaser.js"></script>`
 
-##H ow do you use it? Is there a "cheatsheet" you made others can reference?
+
+##SO how does Phaser really work?
+
+###States
+
+In Phaser, all the action occurs around States. You can think of them as main moments of your game. Think of a soccer game, you have a State when doors are open and people start coming in. Then you have a State when the pre-game show takes place. Then a State where the pre-game show stuff is removed from the field. Then a State when the game begins, and so forth.
+
+Phaser gives you a lot of flexibility as what States you can have, but there is a de-facto convention which is used in many games and tutorials. The naming might vary a bit but it’s usually something like:
+
+####Boot State: general game settings are defined, and the assets of the preloading screen are loaded (example the loading bar). Nothing is shown to the user.
+
+####Preload State: the game assets (images, spritesheets, audio, textures, etc) are loaded into the memory (from the disk). The preloading screen is shown to the user, which usually includes a loading bar to show the progress.
+
+####MainMenu State: your game’s welcome screen. After the preload state, all the game images are already loaded into the memory, so they can quickly accessed.
+
+####Game State: the actual game where the FUN takes place.
+
+###States methods
+
+States have some reserved methods which serve specific purposes. These are the ones we’ll use in this tutorial. You can find the full list here.
+
+–init: is called upon State initialization. If you need to send parameters to the State this is where they’ll be accessible (more on that later)
+
+–preload: this is where the assets are loaded.
+
+–create: this is called upon asset loading completion.
+
+–update: this is called on every game tick. Basically it’s called “many times per second” so this is where you want to include things that need to be constantly tested such as collision detection.
+
+##So many states, is there a "cheatsheet" you made others can reference?
 Yes, please refer for the "cheatsheet.html" file.
  
 ## Games made with Phaser
@@ -125,6 +154,6 @@ Thousands of games have been made in Phaser. From game jam entries to titles by 
 <img src= "http://phaser.io/images/github/shot8.jpg">
 <img src= "http://phaser.io/images/github/shot9.jpg">
 
-## GAME DEMOS: http://itch.io/
+#### MORE: http://itch.io/
 
-##TIME TO CHECKOUT THE GAME I MADE
+#DEMO TIME!
